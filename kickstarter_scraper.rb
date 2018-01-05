@@ -20,6 +20,7 @@ def create_project_hash
 
     } #converting title to symbol
   end
+end
 
   projects
 end
