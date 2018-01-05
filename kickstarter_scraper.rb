@@ -9,7 +9,7 @@ def create_project_hash
 
   #iterate through the projects
   kickstarter.css("li.project.grid_4").each do |project|
-    project[project] = {}
+    projects[project] = {}
   end
 
   projects
